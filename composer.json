@@ -1,0 +1,21 @@
+{
+    "name": "pthreat/zabbix-api",
+    "description": "Zabbix API client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freddy",
+            "email": "jpfstange@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle":"^7.3.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pthreat\\Zabbix\\": "src/Pthreat/Zabbix/"
+        }
+    }
+}
